@@ -1,2 +1,2 @@
-# yogibot-telegram
-YogiBot Telegram Bot
+# YogiBot Telegram Bot
+
