@@ -22,6 +22,7 @@ This [bot](http://t.me/SubwayBot) shows you the Sub of the Day.
 - SSL certificate (I recommend [Let's Encrypt](https://letsencrypt.org/))
 - Webserver running [Python](https://www.python.org) (tested with [Apache](https://httpd.apache.org/) & [NGINX](https://www.nginx.com/) but others should work too)
 - [Healthchecks](https://healthchecks.io/#php) URL (optional)
+- Google Cloud service account credentials (JSON) for accessing Google Sheets API & Google Drive API
 
 ### Contributing
 

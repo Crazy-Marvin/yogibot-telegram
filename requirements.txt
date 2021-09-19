@@ -2,3 +2,5 @@ requests
 pytelegrambotapi
 python-dotenv
 autopep8
+oauth2client
+gspread
