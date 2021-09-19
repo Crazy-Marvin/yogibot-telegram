@@ -22,8 +22,7 @@ forms_url = os.getenv("forms_url")  # your URL to the Google Forms for feedback
 # your URL to the Google Spreadsheet for analytics
 spreadsheet_url = os.getenv("spreadsheet_url")
 
-creds = ServiceAccountCredentials.from_json_keyfile_name(
-    "creds_location", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name(creds_location, scope)
 client = gspread.authorize(creds)
 
 database = client.open("YOGI BOT DATABASE").worksheet("DATABASE")
