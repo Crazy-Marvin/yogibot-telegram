@@ -14,7 +14,7 @@
 
 # Subway Telegram Bot
 
-This [bot](http://t.me/SubwayBot) shows you the Sub of the Day.
+This [bot](http://t.me/YogiTelegramBot) shows you the Sub of the Day.
 
 ### Requirements
 
