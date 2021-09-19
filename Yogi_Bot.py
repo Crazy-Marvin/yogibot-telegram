@@ -19,7 +19,8 @@ my_id = os.getenv("my_id")  # your personal chat ID
 analyst_id = os.getenv("analyst_id")  # personal chat ID of your analyst
 creds_location = os.getenv("creds_location")
 forms_url = os.getenv("forms_url")  # your URL to the Google Forms for feedback
-spreadsheet_url = os.getenv("spreadsheet_url")  # your URL to the Google Spreadsheet for analytics
+# your URL to the Google Spreadsheet for analytics
+spreadsheet_url = os.getenv("spreadsheet_url")
 
 creds = ServiceAccountCredentials.from_json_keyfile_name(
     "creds_location", scope)
@@ -69,7 +70,7 @@ def start(message):
 Would you care for some tea along with some sayings and inspirational quotes? 💡", reply_markup=markup)
     start_count = analytics_YOGI_BOT.acell('F3').value
     analytics_YOGI_BOT.update_acell(
-        'F3', str(int(start_count)+1).replace("'", " "))  # google api bug?
+        'F3', str(int(start_count)+1).replace("'", " "))
 
 
 @bot.message_handler(commands=['yogi'])
