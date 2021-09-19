@@ -24,6 +24,14 @@ This [bot](http://t.me/YogiTelegramBot) shows you the Sub of the Day.
 - [Healthchecks](https://healthchecks.io/#php) URL (optional)
 - Google Cloud service account credentials (JSON) for accessing Google Sheets API & Google Drive API
 
+### Setup
+
+- Create two Google Spreadsheets called YOGI BOT DATABASE and ANALYTICS
+- Create a Google Forms form for feedback
+- Create a Google Cloud project with access to the Google Sheets API & Google Drive API and download the JSON
+- Give that service account editor rights for both spreadsheets
+- Run the script
+
 ### Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
