@@ -163,8 +163,8 @@ def contact(message):
 *CONTACT :*\n
 Telegram: https://t\.me/Marvin\_Marvin\n
 Mail: marvin@poopjournal\.rocks\n
-Issue: https://github\.com/Crazy\-Marvin/SubwayTelegramBot/issues\n
-Source: https://github\.com/Crazy\-Marvin/SubwayTelegramBot
+Issue: https://github\.com/Crazy\-Marvin/yogibot-telegram/issues\n
+Source: https://github\.com/Crazy\-Marvin/yogibot-telegram
 '''
     bot.send_message(message.chat.id, contact_info, parse_mode='MarkdownV2')
 
