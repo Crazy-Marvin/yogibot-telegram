@@ -12,9 +12,9 @@
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Crazy-Marvin/yogibot-telegram)
 [![Telegram Subway Bot](https://img.shields.io/badge/Python-yellow?logo=python)](https://t.me/YogiTelegramBot)
 
-# Subway Telegram Bot
+# YogiBot Telegram Bot
 
-This [bot](http://t.me/YogiTelegramBot) shows you the Sub of the Day.
+This [bot](http://t.me/YogiTelegramBot) shows you a saying from Yogi.
 
 ### Requirements
 
