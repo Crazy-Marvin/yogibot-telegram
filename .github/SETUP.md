@@ -1,7 +1,7 @@
 - Install Python: https://www.python.org/downloads/
     - Python is pre-installed on most Linux operating systems
 - Use an editor or IDE to edit the source
-    - I recommend [Vim](https://www.vim.org/download.php), [Visual Studio Code](https://code.visualstudio.com/) or [PyCharm Professional](https://www.jetbrains.com/pycharm/)
+    - I recommend [Vim](https://www.vim.org/download.php), [Visual Studio Code](https://code.visualstudio.com/) or [PyCharm](https://www.jetbrains.com/pycharm/) [Professional](https://jb.gg/support-python-with-jetbrains).
 - If you want to play with the database, you may download [a dump from the yogibot-api repository](https://github.com/Crazy-Marvin/yogibot-api/tree/trunk/dumps).
     - We use a [MySQL](https://www.mysql.com/) server in production.  [MariaDB](https://mariadb.org/) is working too. Other databases are not considerd but please us know if you have any ideas.
     - Send me an email to ask for a newer dump or if you have data specific questions.
