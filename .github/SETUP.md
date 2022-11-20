@@ -1,0 +1,16 @@
+- Install Python: https://www.python.org/downloads/
+    - Python is pre-installed on most Linux operating systems
+- Use an editor or IDE to edit the source
+    - I recommend [Vim](https://www.vim.org/download.php), [Visual Studio Code](https://code.visualstudio.com/) or [PyCharm Professional](https://www.jetbrains.com/pycharm/)
+- If you want to play with the database, you may download [a dump from the yogibot-api repository](https://github.com/Crazy-Marvin/yogibot-api/tree/trunk/dumps).
+    - We use a [MySQL](https://www.mysql.com/) server in production.  [MariaDB](https://mariadb.org/) is working too. Other databases are not considerd but please us know if you have any ideas.
+    - Send me an email to ask for a newer dump or if you have data specific questions.
+    - The database is quite small but I am working on this slowly.
+- Chat with [@BotFather](https://telegram.me/BotFather) to get a token to deploy a bot for your tests.  
+    - Check out the [tutorial](https://core.telegram.org/bots/tutorial) for more background information. 
+- Create Google Cloud service account credentials (JSON) for accessing Google Sheets API & Google Drive API
+    - Check out the [Google Cloud docs](https://cloud.google.com/docs/) for more background information
+- You may create a [Healthechekcs](https://healthchecks.io/) account 
+    - We use the Healthchecks service to get notified about downtimes. It is optional.
+- You may run the Python script locally or on a server (e.g. [Google Cloud](https://cloud.google.com/), [FlokiNET](https://www.billing.flokinet.com/aff.php?aff=46), [Hetzner](https://hetzner.cloud/?ref=NmVdyrHedFgx) or [DigitalOcean](https://m.do.co/c/d4e804717547)).
+    - Feel welcome to improve this file and my documentation in general. There is huge potential. 👍 
