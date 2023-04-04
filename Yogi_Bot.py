@@ -17,8 +17,13 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 dotenv.load_dotenv()
 
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/spreadsheets",
-         "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
+scope = [
+    "https://spreadsheets.google.com/feeds",
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive",
+]
+
 class Db:
 
     def __init__(self, host, user, password, port, db) -> None:
