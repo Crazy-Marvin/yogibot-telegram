@@ -266,7 +266,7 @@ Source: https://github\.com/Crazy\-Marvin/yogibot\-telegram
 
 @bot.message_handler(commands=['feedback'])
 def feedback(message):
-    bot.send_message(message.chat.id, "https://forms.gle/UfpV6suByJVRZWns9")
+    bot.send_message(message.chat.id, forms_url)
 
     feedback_count = analytics_YOGI_BOT.acell('F9').value
     analytics_YOGI_BOT.update_acell(
@@ -276,11 +276,11 @@ def feedback(message):
 @bot.message_handler(commands=['logs'])
 def logs(message):
 
-    if message.chat.id == 32752003 or message.chat.id == 1102062117:
+    if message.chat.id == my_id or message.chat.id == analyst_id:
 
-        bot.send_message(
-            message.chat.id, f"Check out the *[ANALYTICS](https://docs.google.com/spreadsheets/d/e/2PACX-1vQIbCGPSYxdQH7NBqpCTsr2ZqNWO-DFz_Kerzn8pBJF2b4vjdopTrzrmm4kJQC5VlbkBn0oeGFtAoqG/pub?gid=0&single=true&output=pdf)* for the month\.", parse_mode="MarkdownV2", disable_web_page_preview=True)
-
+        bot.send_message(message.chat.id,
+            f"Check out the *[ANALYTICS]({spreadsheet_url})* for the month\.",
+                parse_mode="MarkdownV2", disable_web_page_preview=True)
 
 bot.add_custom_filter(custom_filters.TextMatchFilter())
 bot.add_custom_filter(custom_filters.TextStartsFilter())
